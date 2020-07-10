@@ -1,0 +1,16 @@
+.category_page_cont{
+    margin-top: 5%;
+    background-color: #0000001f;
+    border-radius: 6px;
+}
+.no_content{
+    font-size: 30px;
+    color: #563d7c;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .category_page_cont{
+        width: 85%;
+    }
+}

@@ -1,0 +1,28 @@
+.article_content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #563d7c55;
+}
+.article_content::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.info_about_article{
+    color: #563d7c;
+    font-size: 10px;
+}
+.info_about_article a {
+    text-decoration: none;
+}
+.info_about_article a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 850px) {
+    .article_img{
+        width: 85%;
+        float: none;
+        margin: 0 auto;
+    }
+}

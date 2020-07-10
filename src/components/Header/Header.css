@@ -1,0 +1,38 @@
+header{
+    background-color: #563d7c;
+    position: sticky;
+    top: 0px;
+    color: white;
+
+}
+header>div:first-child{
+    flex: 1;
+}
+header>div:nth-child(2){
+    flex: 5;
+}
+
+.home_link a{
+    color: white;
+    text-decoration: none;
+}
+
+.logout_button{
+    background-color: white;
+    color: #563d7c;
+}
+.for_media_view{
+    display: none;
+}
+.menu_icon{
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .for_media_view{
+        display: block;
+    }
+    .for_big_view{
+        display: none;
+    }
+}

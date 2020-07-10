@@ -1,0 +1,13 @@
+.form_inp, textarea{
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #563d7c1f;
+    outline-color: #563d7c;
+}
+.form_inp:focus::placeholder, textarea:focus::placeholder{
+    opacity: 0;
+}
+.err_msg{
+    color: red;
+}

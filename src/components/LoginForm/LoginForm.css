@@ -1,0 +1,40 @@
+.login_btn{
+    background-color: #563d7c;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: white;
+    text-decoration: none;
+}
+.login_btn[disabled]{
+    background-color: rgba(86, 61, 124,.5);
+    color: rgba(255,255,255,.5);
+}
+
+.login_header{
+    border-bottom: 1px solid #563d7c5c;
+}
+.longInputs input:not([type='checkbox']){
+    width: 50%;
+}
+.longInputs input[type='submit']{
+    width: 30%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .longInputs input[type='submit']{
+        width: 50%;
+    }
+    .longInputs input:not([type='checkbox']){
+        width: 80%;
+    }
+}

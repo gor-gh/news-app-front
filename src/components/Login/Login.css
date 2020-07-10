@@ -1,0 +1,13 @@
+.login_form_container{
+    background-color: #0000001f;
+    padding: 25px 30px 50px ;
+    width: 40%;
+    margin-top: 70px;
+    color: #563d7c;
+    border-radius: 20px;
+}
+@media screen and (max-width: 500px) {
+    .login_form_container{
+        width: 70%;
+    }
+}
